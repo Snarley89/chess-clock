@@ -1,0 +1,64 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+main section{
+  width: 90%;
+  height: 50%;
+  border-radius: 20px;
+  margin: 5%;
+  color: black;
+}
+
+form{
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  padding: 50px 0;
+  font-size: 30px;
+}
+
+main{
+  min-height: 80%;
+  width: 100%;
+}
+
+#timerOne,
+#timerTwo{
+  background-color: #ff0000;
+  font-size: 200px;
+  text-align: center;
+}
+
+section{
+  text-align: center;
+}
+
+div{
+  display: inline;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+a{
+  text-decoration: none;
+}
+
+#start{
+  font-size: 30px;
+}
+
+i{
+  font-size: 3em;
+  padding: 10px;
+  color: black;
+}

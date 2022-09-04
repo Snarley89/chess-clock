@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="chess clock">
+    	<meta name="keywords" content="chess, clock, timer">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Chess Clock</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://kit.fontawesome.com/13ca5827b8.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<form action="">
+			<label for="time">Enter the starting time in minutes: </label>
+			<input type="number" name="time" id="time">
+			<a href="#"><i class="fa-solid fa-play" id="start"></i></a>
+		</form>
+		<main>
+			<a href="#"><section id="timerOne">
+				<span><div id="minutes">00</div>:<div id="seconds">00</div></span>
+			</section></a>
+			<a href="#"><section id="timerTwo">
+				<span><div id="minutesTwo">00</div>:<div id="secondsTwo">00</div></span>
+			</section></a>
+		</main>
+		<section>
+			<a href="#"><i class="fa-regular fa-circle-pause" id="pause"></i></a>
+			<a href="#"><i class="fa-solid fa-arrow-rotate-right" id="restart"></i></a>
+		</section>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
